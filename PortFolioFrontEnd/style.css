@@ -1,0 +1,82 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.padre {
+    display: flex;
+    flex-flow: column nowrap;
+}
+ .header {
+    background-color: brown;
+    display: flex;
+    flex-flow: column nowrap; 
+}
+    .menu {
+        background-color: #3f1717;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+          .nav {
+              background-color: #E97777;
+              height: 30px;
+              flex: 2 1 auto
+}
+          .logo {
+              background-color: #E97777;
+              height: 30px;
+              flex: 0.5 1 auto
+}
+          .redes {
+              background-color: #E97777;
+              height: 30px;
+              flex: 2 1 auto
+}
+    .titulo {
+      background-color: aqua;
+      font-family: 'Tangerine', cursive;
+}
+          .nombre {
+             background-color: #FF9F9F;
+}
+    .resumen {
+      background-color: rgb(139, 83, 153);
+}
+          .presentacion {
+             background-color: #FCDDB0;
+}
+ .work {
+    background-color: gold;
+}
+    .titulo-work {
+       background-color: #FFF8EA;
+}
+    .cards {
+        background-color: #9e8989;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+         .card-1,.card-2,.card-3,.card-4 {
+             background-color: #594545;
+             padding: 30px;
+             flex: 1 1 auto;
+             align-items: center;
+}
+ .habilidades {
+    background-color: hotpink;
+}
+    .titulo-habilidades {
+       background-color: #594545;
+}
+         .habilidad,.aptitud {
+             background-color: #C8DBBE;
+}
+            .habilidad-1,.habilidad-2,.habilidad-3,.habilidad-4,.habilidad-5,.aptitud-1,.aptitud-2,.aptitud-3,.aptitud-4,.aptitud-5 {
+              background-color: beige;
+}
+ .footer {
+    background-color: navy;
+}
+    .redes-2, .email {
+       background-color: #BCCEF8;
+}
