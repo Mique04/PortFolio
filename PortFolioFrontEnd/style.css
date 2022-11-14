@@ -34,6 +34,7 @@
 }
     .titulo {
       background-color: aqua;
+      height: 450px;
       font-family: 'Tangerine', cursive;
 }
           .nombre {
@@ -41,6 +42,7 @@
 }
     .resumen {
       background-color: rgb(139, 83, 153);
+      height: 200px;
 }
           .presentacion {
              background-color: #FCDDB0;
@@ -50,9 +52,11 @@
 }
     .titulo-work {
        background-color: #FFF8EA;
+       height: 100px;
 }
     .cards {
         background-color: #9e8989;
+        height: 400px;
         display: flex;
         flex-flow: row nowrap;
     }
@@ -67,9 +71,16 @@
 }
     .titulo-habilidades {
        background-color: #594545;
+       height: 100px;
 }
+    .caracteristicas {
+        background-color: #FF9F9F;
+        display: flex;
+        flex-flow: row nowrap;
+    }
          .habilidad,.aptitud {
              background-color: #C8DBBE;
+             flex: 1 1 auto;
 }
             .habilidad-1,.habilidad-2,.habilidad-3,.habilidad-4,.habilidad-5,.aptitud-1,.aptitud-2,.aptitud-3,.aptitud-4,.aptitud-5 {
               background-color: beige;
@@ -77,6 +88,16 @@
  .footer {
     background-color: navy;
 }
-    .redes-2, .email {
-       background-color: #BCCEF8;
+    .titulo-footer {
+        background-color: #C8DBBE;
+    }
+    .redes-email {
+        background-color: #594545;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        .redes-2, .email {
+           background-color: #BCCEF8;
+           height: 170px;
+           flex: 1 1 auto;
 }
