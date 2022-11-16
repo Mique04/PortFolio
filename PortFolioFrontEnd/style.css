@@ -1,5 +1,5 @@
 * {
-    margin: 10px;
+    margin: 5px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -7,38 +7,37 @@
     display: flex;
     flex-flow: column nowrap;
 }
- .header {
-    background: url(https://img.freepik.com/vector-gratis/fondo-escenario-luces-neon-brillante_23-2148292706.jpg?t=st=1668572723~exp=1668573323~hmac=acac87e90bb70a4f4d9b0d744c0ce8695508f31019342ba20edff3d6023722c3);
-      background-position: center;
-      background-attachment: contain;
-      background-size: cover;
+ #header {
+    background: url(https://images.unsplash.com/photo-1632058881089-dbe2978fb8d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-attachment: contain; 
+    background-size: cover;
     display: flex;
     flex-flow: column nowrap; 
 }
     .menu {
-        background-color: #3f1717;
+        background-color: rgba(204, 204, 204, 0.1);
         display: flex;
         flex-flow: row nowrap;
     }
-          .nav {
-              background-color: #E97777;
-              height: 30px;
-              flex: 2 1 auto
-}
           .logo {
               background-color: #E97777;
+              text-align: start;
               height: 30px;
-              flex: 0.5 1 auto
+              flex: 1 1 auto
 }
+                   .logo>a {
+                    outline-style: auto;
+                  }
           .redes {
               background-color: #E97777;
+              text-align: end;
               height: 30px;
-              flex: 2 1 auto
+              flex: 1 1 auto
 }
     .titulo {
       background-color: aqua;
       height: 450px;
-      font-family: 'Tangerine', cursive;
 }
           .nombre {
              background-color: #FF9F9F;
