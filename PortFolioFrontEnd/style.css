@@ -8,7 +8,10 @@
     flex-flow: column nowrap;
 }
  .header {
-    background-color: brown;
+    background: url(https://img.freepik.com/vector-gratis/fondo-escenario-luces-neon-brillante_23-2148292706.jpg?t=st=1668572723~exp=1668573323~hmac=acac87e90bb70a4f4d9b0d744c0ce8695508f31019342ba20edff3d6023722c3);
+      background-position: center;
+      background-attachment: contain;
+      background-size: cover;
     display: flex;
     flex-flow: column nowrap; 
 }
