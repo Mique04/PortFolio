@@ -8,7 +8,7 @@
     flex-flow: column nowrap;
 }
  #header {
-    background: url(https://images.unsplash.com/photo-1632058881089-dbe2978fb8d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background: #1f1f1f;
     background-position: center;
     background-attachment: contain; 
     background-size: cover;
@@ -16,57 +16,62 @@
     flex-flow: column nowrap; 
 }
     .menu {
-        background-color: rgba(204, 204, 204, 0.1);
         display: flex;
         flex-flow: row nowrap;
     }
           .logo {
-              background-color: #E97777;
+              width: 50%;
               text-align: start;
-              height: 30px;
+              padding-left: 40px;
+              font-size: 30px;
               flex: 1 1 auto
 }
-                   .logo>a {
-                    outline-style: auto;
-                  }
+                .logo a{
+                    color: #FFF8EA;
+                    text-decoration: none;
+                }
           .redes {
-              background-color: #E97777;
+              width: 50%;
               text-align: end;
-              height: 30px;
+              font-size: 30px;
               flex: 1 1 auto
 }
+                .redes a {
+                    color: #FFF8EA;
+                }
     .titulo {
-      background-color: aqua;
-      height: 450px;
+      height: 400px;
+      margin-left: 50px;
 }
           .nombre {
-             background-color: #FF9F9F;
+            color: #FFF8EA;
+             height: 100%;
+             padding-top: 200px;
 }
     .resumen {
-      background-color: rgb(139, 83, 153);
       height: 200px;
 }
           .presentacion {
-             background-color: #FCDDB0;
+             font-size: 20px;
+             padding-left: 50px;
+             text-align: left;
+             width: 50%;
+             color: #FFF8EA;
+             height: 100%;
 }
  .work {
-    background-color: gold;
+    background-color: #f0ede9;
 }
     .titulo-work {
-       background-color: #FFF8EA;
-       height: 100px;
+       background-color: #fff8ea;
+       font-size: 40px;
+       text-align: center;
 }
     .cards {
-        background-color: #9e8989;
-        height: 400px;
-        display: flex;
-        flex-flow: row nowrap;
+        
     }
          .card-1,.card-2,.card-3,.card-4 {
-             background-color: #594545;
-             padding: 30px;
-             flex: 1 1 auto;
-             align-items: center;
+             
 }
  .habilidades {
     background-color: hotpink;
