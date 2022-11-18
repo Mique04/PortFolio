@@ -68,17 +68,24 @@
        text-align: center;
 }
     .cards {
-        
+       display: flex;
+       flex-flow: column nowrap;
+       justify-content: flex-start;
+       align-items: center;
     }
-         .card-1,.card-2,.card-3,.card-4 {
-             
-}
+        .card {
+            text-align: center;
+            margin: 30px;
+            width: 50%;
+            height: max-content;
+            flex: 1 1 auto;
+        }
  .habilidades {
-    background-color: hotpink;
+    background-color: #f0ede9;
 }
     .titulo-habilidades {
        background-color: #594545;
-       height: 100px;
+       text-align: center;
 }
     .caracteristicas {
         background-color: #FF9F9F;
@@ -93,7 +100,7 @@
               background-color: beige;
 }
  .footer {
-    background-color: navy;
+    background: #1f1f1f;
 }
     .titulo-footer {
         background-color: #C8DBBE;
