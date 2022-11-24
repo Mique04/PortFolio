@@ -90,11 +90,20 @@
     .caracteristicas {
         background-color: #FF9F9F;
         display: flex;
-        flex-flow: row nowrap;
+        flex-direction: row nowrap;
+        justify-content: center;
+        align-items: center;
     }
-         .progress {
+          .habilidad {
+            width: 100%;
             flex: 1 1 auto;
-         }
+            align-self: stretch;
+          }
+          .aptitud {
+            width: 100%;
+            flex: 1 1 auto;
+            align-self: stretch;
+          }
  .footer {
     background: #1f1f1f;
 }
