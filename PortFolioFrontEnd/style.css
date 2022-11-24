@@ -92,13 +92,9 @@
         display: flex;
         flex-flow: row nowrap;
     }
-         .habilidad,.aptitud {
-             background-color: #C8DBBE;
-             flex: 1 1 auto;
-}
-            .habilidad-1,.habilidad-2,.habilidad-3,.habilidad-4,.habilidad-5,.aptitud-1,.aptitud-2,.aptitud-3,.aptitud-4,.aptitud-5 {
-              background-color: beige;
-}
+         .progress {
+            flex: 1 1 auto;
+         }
  .footer {
     background: #1f1f1f;
 }
