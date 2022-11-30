@@ -1,6 +1,6 @@
 * {
-    margin: 5px;
-    padding: 10px;
+    padding: 5px;
+    margin: 10px;
     box-sizing: border-box;
 }
 .padre {
@@ -61,62 +61,62 @@
 }
  .work {
     background-color: #f0ede9;
+    padding: 50px;
+    margin: 50px;
 }
     .titulo-work {
        background-color: #fff8ea;
        font-size: 40px;
        text-align: center;
 }
-    .cards {
-       display: flex;
-       flex-flow: column nowrap;
-       justify-content: flex-start;
-       align-items: center;
-    }
-        .card {
-            text-align: center;
-            margin: 30px;
-            width: 50%;
-            height: max-content;
-            flex: 1 1 auto;
-        }
- .habilidades {
+ .educacion-habilidades{
     background-color: #f0ede9;
-}
-    .titulo-habilidades {
-       background-color: #594545;
-       text-align: center;
-}
-    .caracteristicas {
-        background-color: #FF9F9F;
-        display: flex;
-        flex-direction: row nowrap;
-        justify-content: center;
-        align-items: center;
-    }
-          .habilidad {
-            width: 100%;
-            flex: 1 1 auto;
-            align-self: stretch;
-          }
-          .aptitud {
-            width: 100%;
-            flex: 1 1 auto;
-            align-self: stretch;
-          }
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+ }
+         .titulo-educacion{
+            text-align: center;
+         }
+         .educacion{
+            background-color: #1f1f1f;
+            color: #f0ede9;
+            width: 50%;
+            flex: 2 1 auto;
+         }
+     .habilidades{
+        background-color: #f0ede9;
+        border-top: 1px solid #1f1f1f;
+        border-bottom: 1px solid #1f1f1f;
+        width: 50%;
+        text-align: center;
+        flex: 1 1 auto;
+     }
+        
  .footer {
     background: #1f1f1f;
 }
     .titulo-footer {
         background-color: #C8DBBE;
+        text-align: center;
     }
-    .redes-email {
+    .frase-email {
         background-color: #594545;
         display: flex;
         flex-flow: row nowrap;
     }
-        .redes-2, .email {
+        .frase {
            background-color: #BCCEF8;
+           width: 40%;
            height: 170px;
            flex: 1 1 auto;
+}
+        .email {
+           background-color: #BCCEF8;
+           width: 60%;
+           height: max-content;
+           flex: 1 1 auto;
+           display: flex;
+           flex-flow: column nowrap;
 }
